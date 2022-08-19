@@ -1,0 +1,173 @@
+body{
+  
+    background-color: #E5E5E5;
+
+}
+#titulo{
+    text-decoration: underline;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    font-size: 35px;
+    font-family: Helvetica;
+    color: #d6104b;
+}
+#letra{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    right: 37px;
+    left: 44px;
+}
+.contenedor-principal{
+    display: flex;
+}
+.mensaje-contenedor  textarea{
+    width: 650px;
+    height: 278px;
+    position: absolute;
+    left: 240px;
+    top: 168px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    border: none;
+}
+#alerta1{
+    width: 30px;
+    height: 30px;
+    font-size: 50px;
+    position: absolute;
+    top: 870px;
+    left: 270px;
+}
+#alerta{
+    width: 280px;
+    height: 20px;
+    color: #495057;
+    opacity: 80%;
+    position: absolute;
+    top: 850px;
+    left: 300px;
+    line-height: 150%;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'inter';
+    font-style: normal;
+}
+textarea{
+    color: #0A3871;
+}
+.boton{
+      position: absolute;
+      top: 909px;
+      left: 264px;
+      border: #0A3871;
+      }
+#encriptar{
+      width: 324px;
+      height: 67px;
+      border-radius:24px;
+      padding: 24px;
+      gap:8px;
+      background: #0A3871;
+      color: white;
+      font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+}
+#encriptar:hover{
+    background-color: aqua;
+}
+#desencriptar:hover{
+    background-color: aqua;
+}
+#copiar:hover{
+    background-color: aqua;
+}
+#desencriptar{
+    margin-left: 25px;
+    width: 324px;
+    height: 67px;
+    gap: 8px;
+    padding: 24px;
+    left: 24px;
+    color: #0A3871;
+    background-color: white;
+    border-radius: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #0A3871;
+}
+#imagen{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#tex{
+    margin-left: 7%; 
+    margin-right: 5%;
+    color: brown;
+    text-align: center;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'inter';
+}
+.resultado{
+    
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 990px;
+    top: 40px;
+    border-radius: 32px;
+    background-color: white;
+    border: none;
+}
+.resultado div button{
+    width: 288px;
+    height: 50px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    position: absolute;
+    top: 869px;
+    left: 56px;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+}
+
+.pie{
+    position: absolute;
+    top: 1050px;
+    left: 500px;
+    font-size: 20px;
+    color: #d6104b;
+}
+

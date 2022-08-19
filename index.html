@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Encriptador</title>
+
+</head>
+<body>
+    
+    <script src="index.js"></script>
+    <h2 id="titulo">Encriptador de Mensaje</h2>
+   <div class="contenedor-principal">
+        <img id="letra" src="imagen/al.png" alt="letra a">
+
+        <!-----------------------primer_bloque-----------------------------> 
+      <main> 
+        <div class="mensaje-contenedor">
+            
+                <textarea id="mensaje" placeholder="ingrese el texto aqui"></textarea>
+                <div class="boton">
+                    <button id="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>                           
+                </div>                  
+            <img id="alerta1" src="imagen/exclamacion.png" alt=" signo de exclamacion"> 
+            <h4 id="alerta">Solo letras minusculas y sin acentos</h4>
+        </div>
+    <!---------------------------segundo_bloque------------------------------>
+         <div>
+                <div class="resultado">
+                      <div>
+                             <img src="imagen/buscando.jpg" id="imagen">
+                             <h1 id="tex">Ningun mensaje fue encontrado</h1>
+                             <textarea id="texto2"  placeholder="ingrese el texto que deseas encriptar o desencriptar"></textarea>
+                             <button id="copiar" type="button" name="button" onclick="encriptar()">copiar</button>
+                      </div>
+                </div>
+         </div>
+      </main> 
+    <!---------------footer------------footer--------------footer------------>
+    <footer>
+        <p class="pie">
+            <strong>Desarrollado por: <i>Garcia Tola Maria Isabel</i></strong>
+        </p>
+    </footer>
+    <script src=""></script>
+</body>
+
+</html>
